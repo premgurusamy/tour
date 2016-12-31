@@ -1,0 +1,246 @@
+body{
+  font-family: "Open Sans";
+
+}
+a:hover{
+  text-decoration: none;
+}
+/*#####Header Designs Starts Here######*/
+header{
+  background:url(../asset/images/jumbotron-bg-image-min.jpg) left center no-repeat;
+  letter-spacing:1px;
+}
+/*#####Header Designs Ends Here######*/
+
+/*#####NavBar Designs Starts Here######*/
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: rgba(55,55,55,0.8);
+}
+.navbar-default .navbar-nav > li > a:focus {
+    color: rgba(55,55,55,0.8);
+    text-decoration: underline;
+}
+.navbar-btn{
+  border-radius:15px;
+  font-size:1em;
+  background-color: white;
+  border: none;
+
+}
+.navbar-btn a{
+  text-decoration: none;
+  color: #7057a4;
+  font-weight: 500;
+
+}
+.navbar-right ul li{
+  font-size: .8em;
+}
+.company-logo-nav{
+  width: 25px;
+
+}
+.navbar-default{
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+    margin-top: .5em;
+}
+
+.navbar-default .navbar-toggle{
+  border: none;
+
+}
+.navbar-default .navbar-toggle:hover{
+  background-color:transparent;
+
+}
+.navbar-default .navbar-toggle:focus{
+  background-color:transparent;
+
+
+}
+/*#####NavBar Designs Ends Here######*/
+
+/*#####Jumbotron Designs Starts Here######*/
+.jumb-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+  text-align: center;
+
+}
+.jumb-content h1{
+  font-weight: 300;
+  color: white;
+  font-size: 2.5em;
+}
+.jumb-content p{
+  font-size: 1.3em;
+  line-height: 1.8em;
+  color: rgba(255,255,255,0.9);
+  margin-top: 20px;
+}
+/*#####Jumbotron Designs Ends Here######*/
+
+/*####Intro Content Designs Starts Here####*/
+.intro-content{
+  margin-top: 50px;
+}
+
+.intro-left-content h2{
+  font-size: 1.7em;
+  line-height: 1.5em;
+  color:rgba(108,87,166,1);
+  font-weight: 400;
+}
+
+.intro-left-content p{
+  margin-top: 30px;
+  font-size: 0.9em;
+  line-height: 2em;
+  color:rgba(108,87,166,.7)
+}
+/*Intro Right Content  Styles*/
+.intro-right-content{
+
+}
+.intro-right-content h2{
+  padding-top: 10px;
+  font-size: 0.9em;
+  letter-spacing:1px;
+  color:rgba(108,87,166,1);
+  font-weight: 400;
+}
+
+.media-left img{
+  max-width: 50px;
+  margin-top: 15px;
+  -webkit-filter: drop-shadow(3px 7px 5px rgba(55,55,55,0.3));
+    filter:  drop-shadow(3px 7px 5px rgba(55,55,55,0.3));
+}
+
+.intro-content-side-button{
+  margin-top: 50px;
+
+}
+.get-started-today-btn{
+  background-color:rgba(116,93,188,1);
+  border: none;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  padding:10px 15px;
+}
+.get-started-today-btn:hover{
+  background-color: rgba(126,73,188,1);
+}
+.see-plans-col{
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.see-plans {
+  letter-spacing: 1px;
+  font-size: 0.8em;
+  border-bottom: 1px dashed rgba(116,93,188,1);
+  text-decoration: none;
+}
+/*Intro  Image Stlyes*/
+.intro-left-image-container{
+  margin-top: 70px;
+}
+.intro-left-image{
+  position: relative;
+}
+.intro-left-image img{
+  background-color: transparent;
+/*  -webkit-box-shadow: 1px 4px 47px 2px rgba(0,0,0,0.4);
+-moz-box-shadow: 1px 4px 47px 2px rgba(0,0,0,0.4);
+box-shadow: 1px 4px 47px 2px rgba(0,0,0,0.4);    */
+}
+
+.we-king-image{
+  position: absolute;
+  right: 155px;
+}
+/*####Intro Content Designs Ends Here####*/
+
+/*####What's Included Designs Starts Here####*/
+.whats-included-content{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.whats-included-content h4{
+  padding-top: 10px;
+  font-size: 0.8em;
+  letter-spacing:1.7px;
+  color:rgba(108,87,166,.8);
+  font-weight: 400;
+  text-align: center;
+}
+.whats-included-content h2{
+  margin-bottom: 40px;
+  font-size: 1.7em;
+  line-height: 1.5em;
+  color:rgba(108,87,166,1);
+  font-weight: 400;
+  text-align: center;
+}
+.whats-included-content .thumbnail{
+
+  border: none;
+  padding: 20px;
+}
+.whats-included-content .thumbnail img{
+  width: 50px;
+}
+
+.whats-included-content .thumbnail .thumbnail-title{
+  font-size: 1em;
+  letter-spacing:1px;
+  color:rgba(108,87,166,1);
+  font-weight: 400;
+}
+.whats-included-content .thumbnail p{
+  color:rgba(108,87,166,.6);
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 2em;
+}
+
+
+
+
+
+
+/********######Media Query Below 990px ######********/
+@media only screen and (max-width:990px){
+  /*Intro Right Content  Styles*/
+  .intro-right-content{
+    margin-top: 50px;
+  }
+
+}
+
+
+/********######Media Query Below 768px ######********/
+@media only screen and (max-width:767px){
+  /*Intro Right Content Styles*/
+  .intro-content-side-button{
+    text-align: center;
+
+  }
+
+  /*What included Content  Styles*/
+  .whats-included-content{
+    margin-top: 70px;
+  }
+
+}
