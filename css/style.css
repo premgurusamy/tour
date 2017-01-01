@@ -278,7 +278,43 @@ box-shadow: 1px 4px 47px 2px rgba(0,0,0,0.4);    */
   right: 0px;
   width: 80%;
 }
+/*####Custom Sermon Designs Ends Here####*/
 
+/*####Video Examples Designs Starts Here####*/
+.video-examples-content{
+  margin-top: 100px;
+  text-align: center;
+}
+.video-examples-content .row{
+  margin: 2em 0;
+}
+.center-block{
+  margin: 0 auto;
+  float: none;
+}
+.image-center-block{
+  display: flex;
+  justify-content: center;
+}
+.image-center-block img{
+  cursor: zoom-in;
+}
+/*###Video Modals Designs Here###*/
+.modal-close-button{
+  font-size: 2em;
+  color: white;
+}
+.modal-backdrop.in {
+	opacity: 0.9;
+}
+.modal-content{
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+}
+.modal-header{
+  border:none;
+}
 /********######Media Query Below 990px ######********/
 @media only screen and (max-width:990px){
   /*Intro Right Content  Styles*/
