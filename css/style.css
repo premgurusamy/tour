@@ -14,6 +14,12 @@ body{
   color:rgba(108,87,166,1);
   font-weight: 400;
 }
+.medium-header{
+  font-size: 1.1em;
+  line-height: 1.5em;
+  color:rgba(108,87,166,.8);
+  font-weight: 400;
+}
 .cute-paragraph{
   font-size: 0.9em;
   line-height: 2em;
@@ -317,6 +323,23 @@ box-shadow: 1px 4px 47px 2px rgba(0,0,0,0.4);    */
 .modal-header{
   border:none;
 }
+
+/*****#####FAQ Content Design Starts Here#####*******/
+.faq-content{
+  margin-top: 100px;
+}
+.faq-header{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.faq-questions{
+  margin-bottom: 30px;
+}
+.faq-get-started-btn{
+  text-align: center;
+  margin-top: 50px;
+}
 /********######Media Query Below 990px ######********/
 @media only screen and (max-width:990px){
   /*Intro Right Content  Styles*/
@@ -327,15 +350,19 @@ box-shadow: 1px 4px 47px 2px rgba(0,0,0,0.4);    */
 }
 
 
+
 /********######Media Query Below 425px ######********/
-@media only screen and (max-device-width:425px){
+@media only screen and (max-width:425px){
   /*video-examples-content styles*/
   .image-center-block{
     display:block;
     justify-content: center;
   }
   .image-center-block img{
-    margin: 3em 0;
+    margin: 2em 0;
+  }
+  .more-video-samples{
+    display: block;
   }
 }
 
