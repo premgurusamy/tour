@@ -289,7 +289,6 @@ box-shadow: 1px 4px 47px 2px rgba(0,0,0,0.4);    */
   margin: 2em 0;
 }
 .center-block{
-  margin: 0 auto;
   float: none;
 }
 .image-center-block{
@@ -302,8 +301,11 @@ box-shadow: 1px 4px 47px 2px rgba(0,0,0,0.4);    */
 /*###Video Modals Designs Here###*/
 .modal-close-button{
   font-size: 2em;
+  font-weight: 300;
   color: white;
+
 }
+
 .modal-backdrop.in {
 	opacity: 0.9;
 }
@@ -324,6 +326,18 @@ box-shadow: 1px 4px 47px 2px rgba(0,0,0,0.4);    */
 
 }
 
+
+/********######Media Query Below 425px ######********/
+@media only screen and (max-device-width:425px){
+  /*video-examples-content styles*/
+  .image-center-block{
+    display:block;
+    justify-content: center;
+  }
+  .image-center-block img{
+    margin: 3em 0;
+  }
+}
 
 /********######Media Query Below 768px ######********/
 @media only screen and (max-width:767px){
@@ -348,5 +362,7 @@ box-shadow: 1px 4px 47px 2px rgba(0,0,0,0.4);    */
   .whats-included-content{
     margin-top: 70px;
   }
+
+
 
 }
