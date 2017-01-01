@@ -2,6 +2,23 @@ body{
   font-family: "Open Sans";
 
 }
+.small-header{
+  font-size: 0.9em;
+  letter-spacing:1px;
+  color:rgba(108,87,166,1);
+  font-weight: 400;
+}
+.big-header{
+  font-size: 1.7em;
+  line-height: 1.5em;
+  color:rgba(108,87,166,1);
+  font-weight: 400;
+}
+.cute-paragraph{
+  font-size: 0.9em;
+  line-height: 2em;
+  color:rgba(108,87,166,.7)
+}
 a:hover{
   text-decoration: none;
 }
@@ -103,7 +120,8 @@ header{
 }
 
 .intro-left-content p{
-  margin-top: 30px;
+  margin-top: 25px;
+  padding-left: 0.5em;
   font-size: 0.9em;
   line-height: 2em;
   color:rgba(108,87,166,.7)
@@ -216,9 +234,36 @@ box-shadow: 1px 4px 47px 2px rgba(0,0,0,0.4);    */
 }
 
 
+/*####What's Included Designs Ends Here####*/
 
+/*####Custom Sermon Designs Starts Here####*/
+.custom-sermon-content{
+  margin-top: 100px;
+}
+.custom-sermon-media-paragraph{
+  margin-top: 30px;
+  padding-left: 0.5em;
+}
+.custom-sermon-media-image{
 
+}
+.custom-sermon-image{
+  position: relative;
+}
 
+.ipad-arise-image{
+  width: 70%;
+  position: absolute;
+  z-index: 1;
+
+  top: 220px;
+}
+.ipad-matter-image{
+  position: absolute;
+  top:80px;
+  right: 0px;
+  width: 80%;
+}
 
 /********######Media Query Below 990px ######********/
 @media only screen and (max-width:990px){
