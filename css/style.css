@@ -19,7 +19,17 @@ body{
   line-height: 2em;
   color:rgba(108,87,166,.7)
 }
-a:hover{
+.cute-link {
+  color: rgba(116,93,188,1);
+  letter-spacing: 1px;
+  font-size: 0.8em;
+  border-bottom: 1px dashed rgba(116,93,188,1);
+  text-decoration: none;
+}
+
+.see-plans-col a:hover{
+  color: rgba(136,73,198,1);
+  border-bottom: 1px dashed rgba(136,73,198,1);
   text-decoration: none;
 }
 /*#####Header Designs Starts Here######*/
@@ -64,6 +74,8 @@ header{
 .navbar-default{
   background-color: transparent;
 }
+
+
 .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
     margin-top: .5em;
@@ -141,8 +153,8 @@ header{
 .media-left img{
   max-width: 50px;
   margin-top: 15px;
-  -webkit-filter: drop-shadow(3px 7px 5px rgba(55,55,55,0.3));
-    filter:  drop-shadow(3px 7px 5px rgba(55,55,55,0.3));
+  /*-webkit-filter: drop-shadow(3px 7px 5px rgba(55,55,55,0.3));
+    filter:  drop-shadow(3px 7px 5px rgba(55,55,55,0.3));   */
 }
 
 .intro-content-side-button{
@@ -160,10 +172,12 @@ header{
   background-color: rgba(126,73,188,1);
 }
 .see-plans-col{
+
   margin-top: 20px;
   margin-left: 15px;
 }
 .see-plans {
+  color: rgba(116,93,188,1);
   letter-spacing: 1px;
   font-size: 0.8em;
   border-bottom: 1px dashed rgba(116,93,188,1);
@@ -277,6 +291,17 @@ box-shadow: 1px 4px 47px 2px rgba(0,0,0,0.4);    */
 
 /********######Media Query Below 768px ######********/
 @media only screen and (max-width:767px){
+  /*navbar-nav styles*/
+  .navbar-nav li{
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  #collapsable-nav{
+    border: none;
+    background-color: rgba(121,86,165,1);
+}
+
   /*Intro Right Content Styles*/
   .intro-content-side-button{
     text-align: center;
