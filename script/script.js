@@ -31,5 +31,5 @@ function equalHeight(group) {
 }
 
 $(document).ready(function() {
-    equalHeight($(".thumbnail"));
+    equalHeight($(".thumbnail-testimonial-content"));
 });

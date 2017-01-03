@@ -21,7 +21,7 @@ body{
   font-weight: 400;
 }
 .cute-paragraph{
-  font-size: 0.9em;
+  font-size: 1em;
   line-height: 2em;
   color:rgba(108,87,166,.7)
 }
@@ -140,9 +140,6 @@ header{
 .intro-left-content p{
   margin-top: 25px;
   padding-left: 0.5em;
-  font-size: 0.9em;
-  line-height: 2em;
-  color:rgba(108,87,166,.7)
 }
 /*Intro Right Content  Styles*/
 .intro-right-content{
@@ -232,7 +229,6 @@ box-shadow: 1px 4px 47px 2px rgba(0,0,0,0.4);    */
   text-align: center;
 }
 .whats-included-content .thumbnail{
-
   border: none;
   padding: 20px;
 }
@@ -246,12 +242,6 @@ box-shadow: 1px 4px 47px 2px rgba(0,0,0,0.4);    */
   color:rgba(108,87,166,1);
   font-weight: 400;
 }
-.whats-included-content .thumbnail p{
-  color:rgba(108,87,166,.6);
-  font-weight: 400;
-  font-size: 0.9em;
-  line-height: 2em;
-}
 
 
 /*####What's Included Designs Ends Here####*/
@@ -263,9 +253,6 @@ box-shadow: 1px 4px 47px 2px rgba(0,0,0,0.4);    */
 .custom-sermon-media-paragraph{
   margin-top: 30px;
   padding-left: 0.5em;
-}
-.custom-sermon-media-image{
-
 }
 .custom-sermon-image{
   position: relative;
@@ -306,9 +293,12 @@ box-shadow: 1px 4px 47px 2px rgba(0,0,0,0.4);    */
 }
 /*###Video Modals Designs Here###*/
 .modal-close-button{
-  font-size: 2em;
-  font-weight: 300;
-  color: white;
+  font-size: 1.2em;
+  font-weight: 500;
+  padding: 0 10px;
+  border-radius: 50px;
+  color: black;
+  background-color: white;
 
 }
 
@@ -365,7 +355,7 @@ box-shadow: 1px 4px 47px 2px rgba(0,0,0,0.4);    */
 .thumbnail-testimonial{
   margin-top: 75px;
 }
-.thumbnail{
+.thumbnail-testimonial-content{
   position: relative;
   height: 350px;
 }
@@ -444,10 +434,9 @@ box-shadow: 1px 4px 47px 2px rgba(0,0,0,0.4);    */
   .navbar-nav li{
     margin: 30px 0;
     text-align: center;
-    font-size: 3em;
   }
   .navbar-nav li a{
-    font-size: 1.6em;
+    font-size: 1.3em;
   }
   #collapsable-nav{
     border: none;
